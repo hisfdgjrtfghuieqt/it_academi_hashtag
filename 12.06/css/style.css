@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+}
+
+header {
+    max-height: 55px;
+    background-color: #1f1f56;
+    padding: 19px 0px 19px 120px;
+    display: flex;
+}
+
+.header {
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: #b1b1d2;
+    font-family: "Arial";
+    padding: 27px;
+    min-width: 800px;
+    text-decoration: none;
+}
+
+.icons {
+    width: 200px;
+    padding-left: 900px;
+}
+
+.ico {
+    padding-right: 15px;
+}
+
+.header:hover {
+    color: #fd8300;
+}
+
+.advertising {
+    max-height: 115px;
+    display: flex;
+    padding: 29px 120px;
+}
+
+.tel {
+    text-decoration: none;
+    font-size: 18px;
+    color: #25252c;
+    font-weight: bold;
+    font-family: "Arial";
+}
+
+.atel1 {
+    padding-left: 21px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #25252c;
+    font-weight: bold;
+    font-family: "Arial";
+}
+
+.phone {
+    padding-left: 200px;
+
+    flex-direction: column;
+}
+
+.tel1 {
+    padding-top: 20px;
+}
+
+.palka {
+    width: 1px;
+    height: 51px;
+    background-color: #e4e4ec;
+    margin-left: 45px;
+}
+
+.mailtext {
+    font-size: 16px;
+    color: #25252c;
+    font-family: "Arial";
+}
+.phone-numbers {
+    display: flex;
+    flex-direction: column;
+}

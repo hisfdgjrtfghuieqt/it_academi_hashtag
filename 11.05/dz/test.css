@@ -1,0 +1,9 @@
+tr {
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 2%;
+}
+* {
+    background-color: lightskyblue;
+    color: black
+}
