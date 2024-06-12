@@ -92,7 +92,30 @@ main {
 
 .partners {
     margin-top: 31px;
+    position: relative;
 }
+
+.partners a::before,
+.contacts a::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    width: 0%;
+    height: 2px;
+    background-color: #39930d;
+    transition: all .5s ease;
+}
+
+.contacts a::before {
+   bottom: 0; 
+}
+
+.partners li:hover > a::before,
+.contacts p:hover > a::before {
+    width: 100%;    
+}
+
 
 .main-text {
     margin-left: 50px;
@@ -137,12 +160,17 @@ main {
     font-family: "Arial";
 }
 
+.li a {
+    text-decoration: none;
+}
+
 li {
     padding-top: 10px;
 }
 
 .phone-number {
     text-decoration: none;
+    position: relative;
     font-size: 14px;
     line-height: 7px;
     color: #5a5a5a;
