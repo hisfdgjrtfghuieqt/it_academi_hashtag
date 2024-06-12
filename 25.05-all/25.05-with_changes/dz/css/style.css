@@ -90,7 +90,7 @@ main {
     flex-direction: row-reverse;
 }
 
-.partners {
+.partners a{
     margin-top: 31px;
     position: relative;
 }
@@ -107,8 +107,12 @@ main {
     transition: all .5s ease;
 }
 
+.partners a::before {
+    bottom: 0;
+}
+
 .contacts a::before {
-   bottom: 0; 
+    bottom: 0; 
 }
 
 .partners li:hover > a::before,
