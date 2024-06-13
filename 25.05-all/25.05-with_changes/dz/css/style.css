@@ -14,19 +14,14 @@ body {
 }
 
 .footer {
+    padding: 5px 136px 6px;
+    font-size: 14px;
+    color: #fff;
     background-color: #39930d;
-    width: 100%;
-}
-
-.footer-ul {
-    list-style-type: none;
-    float: right;
-    display: flex;
-    height: 15px;
 }
 
 .footer-text-1 {
-    padding-top: 13px;
+    padding-top: 7px;
     font-size: 14px;
     color: #ffffff;
     font-family: "Arial";
@@ -40,13 +35,20 @@ body {
 .instagram,
 .facebook,
 .twitter {
-    float: right;
-    margin-top: -18px; 
-    padding-right: 10px;
+    width: 20px;
+    height: 20px;
+    padding-top: 6px;
+    padding-left: 11px;
 }
 
-.twitter {
-    padding-right: 135px;
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-wrapper a {
+    max-width: 20px;
+    max-height: 20px;
 }
 
 main {
@@ -129,9 +131,12 @@ main {
     column-gap: 15px;
 }
 
-.square-text {
+.partners p {
     max-width: 281px;
-    padding: 10px 19px;
+    padding: 10px 70px 10px 20px; 
+    white-space: nowrap;
+    text-align: left;
+    margin: 31px 0px 0px 16px;
     background-color: #39930d;
     font-size: 18px;
     text-transform: uppercase;
@@ -176,7 +181,6 @@ li {
     text-decoration: none;
     position: relative;
     font-size: 14px;
-    line-height: 7px;
     color: #5a5a5a;
     font-weight: bold;
     font-family: "Arial";
@@ -191,19 +195,19 @@ li {
     margin: 15px 8px 15px 15px;
 }
 
-.text1 {
+.logo p{
     margin-top: 15px;
     font-size: 14px;
     color: #5a5a5a;
     font-family: "Arial";
 }
 
-span {
+.logo b {
     font-size: 24px;
     text-transform: uppercase;
     color: #39930d;
-    font-weight: bold;
     font-family: "Arial";
+    display: block;
 }
 
 .grafik-text span{
