@@ -90,6 +90,7 @@ main {
 .main-text {
     max-width: 620px;
     margin: 16px 0px;
+    margin-left: 20px;
 }
 
 .h1 {
@@ -98,27 +99,12 @@ main {
     font-weight: bold;
 }
 
-.p1 {
-    margin: 16px 0px;
-}
-
-.p2 {
-    margin: 16px 0px;
-}
-
-.p3 {
-    margin: 16px 0px;
-}
-
-.main-text {
-    margin-left: 20px;
-}
-
 .p1,
 .p2,
 .p3 {
     font-size: 14px;
     color: #343434;
+    margin: 16px 0px;
 }
 
 .navigation {
@@ -143,11 +129,8 @@ main {
     transition: all .5s ease;
 }
 
-.partners a::before {
-    bottom: 0;
-}
-
-.contacts a::before {
+.contacts a::before,
+.partners a::before  {
     bottom: 0; 
 }
 
