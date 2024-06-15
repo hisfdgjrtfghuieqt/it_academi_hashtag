@@ -53,8 +53,61 @@ svg:hover {
     padding: 27px 120px;
 }
 
-span {
+.palka {
     width: 1px;
     height: 51px;
     background-color: #e4e4ec;
+}
+
+.contacts p {
+    font-size: 18px;
+    line-height: 24px;
+    color: #25252c;
+    font-weight: bold;
+}
+
+.contacts button {
+    width: 200px;
+    height: 51px;
+    border-radius: 25px;
+    background-color: #ffffff;
+    border: 2px solid #fd8300;
+}
+
+.test {
+    padding-left: 27px;
+}
+
+.logo {
+    column-gap: 11px;
+    display: flex;
+}
+
+.logo img {
+    width: 17px;
+    height: 17px;
+}
+
+.mail,
+.skype {
+    column-gap: 11px;
+    display: flex;
+}
+
+.mail img {
+    width: 18px;
+    height: 13px;
+}
+
+.skype img {
+    width: 18px;
+    height: 19px;
+}
+
+.phone a {
+    font-size: 18px;
+    line-height: 24px;
+    color: #25252c;
+    font-weight: bold;
+    text-decoration: none;
 }
