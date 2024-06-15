@@ -48,9 +48,13 @@ svg {
 svg:hover {
     fill: #fd8300;
 }
+
 .contacts {
     padding: 27px 120px;
 }
+
 span {
-    
+    width: 1px;
+    height: 51px;
+    background-color: #e4e4ec;
 }
