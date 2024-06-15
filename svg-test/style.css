@@ -1,0 +1,12 @@
+body {
+    background-color: black;
+}
+
+svg {
+    fill: aliceblue;
+    transition: all .4s ease;
+}
+
+svg:hover {
+    fill: blue;
+}
