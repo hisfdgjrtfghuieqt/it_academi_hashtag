@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: "Arial";
+}
+
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header a {
+    color: #b1b1d2;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-family: "Arial";
+    transition: all .3s ease;
+}
+
+.nav {
+    display: flex;
+    column-gap: 26px;
+}
+
+.header a:hover {
+    color: #fd8300;
+}
+
+.header {
+    background-color: #1f1f56;
+    max-height: 55px;
+    padding: 18px 120px;
+}
+
+.icons {
+    display: flex;
+    column-gap: 23px;
+}
+
+svg {
+    fill: #fff;
+    transition: all .3s ease;
+}
+
+svg:hover {
+    fill: #fd8300;
+}
+.contacts {
+    padding: 27px 120px;
+}
