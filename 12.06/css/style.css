@@ -32,7 +32,7 @@ body {
 .header {
     background-color: #1f1f56;
     max-height: 55px;
-    padding: 18px 120px;
+    padding: 16px 120px;
 }
 
 .icons {
@@ -50,4 +50,7 @@ svg:hover {
 }
 .contacts {
     padding: 27px 120px;
+}
+span {
+    
 }
