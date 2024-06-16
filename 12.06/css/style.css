@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    padding: 0;
 }
 
 body {
@@ -197,8 +198,19 @@ h1 {
     padding-bottom: 24px;
 }
 
-.main-text p {
+.text2,
+.text1 {
     font-size: 14px;
     line-height: 24px;
     color: #666;
+}
+
+.link a {
+    font-size: 14px;
+    line-height: 24px;
+    color: #fd8300;
+    font-weight: bold;
+}
+.link {
+    padding-top: 28px;
 }
