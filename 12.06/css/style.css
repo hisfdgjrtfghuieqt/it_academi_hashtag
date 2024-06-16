@@ -73,6 +73,15 @@ svg:hover {
     border-radius: 25px;
     background-color: #ffffff;
     border: 2px solid #fd8300;
+    transition: all .3s ease;
+}
+
+.contacts button:hover {
+    background-color: #ededf5;
+}
+
+.contacts button:active {
+    background-color: #fd8300;
 }
 
 .test {
