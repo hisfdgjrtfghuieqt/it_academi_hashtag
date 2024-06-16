@@ -213,8 +213,12 @@ h1 {
 }
 .link {
     padding-top: 28px;
+    margin-bottom: 34px;
 }
 
-main {
-    display: flex;
+.razdelitel {
+    height: 1px;
+    width: 714px;
+    background-color: #e4e4ec;
+    margin: 0 0 0 120px;
 }
