@@ -214,3 +214,7 @@ h1 {
 .link {
     padding-top: 28px;
 }
+
+main {
+    display: flex;
+}
