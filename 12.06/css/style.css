@@ -219,7 +219,7 @@ h1 {
 
 .razdelitel {
     height: 1px;
-    width: 714px;
+    width: 765px;
     background-color: #e4e4ec;
     margin: 0 0 32px 120px;
 }
@@ -234,5 +234,80 @@ h1 {
     color: #24242b;
     font-weight: 700;
     font-family: "Roboto Slab";
-    
+    margin-bottom: 25px;
+}
+
+.homes {
+    display: flex;
+    column-gap: 28px;
+}
+
+.home1 p {
+    font-size: 14px;
+    line-height: 24px;
+    color: #1f1f56;
+    font-weight: bold;
+}
+
+.homes span {
+    font-size: 13px;
+    line-height: 18px;
+    color: #9999a6;
+}
+
+.home2 img {
+    height: 153px;
+}
+
+.home2 p {
+    font-size: 14px;
+    line-height: 24px;
+    color: #1f1f56;
+    font-weight: bold;
+}
+
+.home3 p {
+    font-size: 14px;
+    line-height: 24px;
+    color: #1f1f56;
+    font-weight: bold;
+}
+
+.info {
+    background-color: #ededf5;
+    padding: 28px 120px;
+    display: flex;
+
+}
+
+.homes {
+    margin-bottom: 50px;
+}
+
+.a1 a,
+.a2 a {
+    font-size: 14px;
+    line-height: 26px;
+    color: #666;
+    transition: all .4s ease;
+    text-decoration: none;
+}
+
+.a1 a:hover,
+.a2 a:hover {
+    color: #fd8300;
+    text-decoration: underline;
+}
+
+.footer {
+    padding: 13px 120px;
+    background-color: #dcdce6;
+    display: flex;
+    justify-content: center;
+}
+
+.footer p {
+    font-size: 13px;
+    line-height: 18px;
+    color: #9999a6;
 }
