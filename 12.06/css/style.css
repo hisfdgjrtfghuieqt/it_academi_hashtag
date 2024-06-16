@@ -311,3 +311,9 @@ h1 {
     line-height: 18px;
     color: #9999a6;
 }
+
+.name1 a,
+.name2 a,
+.name3 a {
+    color: #1f1f56;
+}
