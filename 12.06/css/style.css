@@ -7,6 +7,19 @@ body {
     font-family: "Arial";
 }
 
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 960px;
+}
+
 .flex-between {
     display: flex;
     justify-content: space-between;
@@ -15,12 +28,11 @@ body {
 .header {
     background-color: #1f1f56;
     max-height: 55px;
-    padding: 16px 120px;
+    padding: 16px 0;
 }
 
 .header a {
     color: #b1b1d2;
-    text-decoration: none;
     font-size: 14px;
     letter-spacing: 2px;
     font-family: "Arial";
@@ -36,11 +48,6 @@ body {
     column-gap: 26px;
 }
 
-.icons {
-    display: flex;
-    column-gap: 23px;
-}
-
 svg {
     fill: #fff;
     transition: all .3s ease;
@@ -51,7 +58,7 @@ svg:hover {
 }
 
 .contacts {
-    padding: 27px 120px;
+    padding: 27px 0;
 }
 
 .contacts p {
@@ -99,7 +106,6 @@ svg:hover {
     line-height: 24px;
     color: #25252c;
     font-weight: bold;
-    text-decoration: none;
 }
 
 .mail a,
@@ -109,17 +115,11 @@ svg:hover {
     color: #25252c;
 }
 
-.skype a {
-    text-decoration: none;
-}
-
 .palka {
     width: 1px;
     height: 51px;
     background-color: #e4e4ec;
 }
-
-
 
 button {
     font-size: 16px;
@@ -129,25 +129,24 @@ button {
 }
 
 .adv {
-    background-image: url('img1.png');
-    background-size: 100%;
-    background-color: #000;
-    background-position: center;
-    background-repeat: no-repeat;
+    background: #000 url('../img/img1.png') no-repeat center/cover;
     width: 100%;
-    height: 200px;
 }
 
-.adv p {
-    padding-top: 40px;
-    justify-content: center;
-    align-items: center;
+.adv div {
+    max-width: 610px;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+.main {
+    padding-top: 43px;
+    margin-bottom: 50px;
+    column-gap: 28px;
 }
 
 .main-text {
     max-width: 669px;
-    padding-left: 120px;
-    padding-top: 43px;
 }
 
 h1 {
@@ -167,9 +166,10 @@ h1 {
 
 .t2 {
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.7em;
     color: #fff;
     text-align: center;
+    padding: 12px 0;
 }
 
 .t3 {
@@ -177,6 +177,7 @@ h1 {
     color: #fd8300;
     font-weight: bold;
     display: flex;
+    align-items: center;
     justify-content: center;
 }
 
@@ -184,8 +185,6 @@ h1 {
     font-size: 24px;
     color: #fd8300;
     font-weight: bold;
-    display: flex;
-    justify-content: end;
 }
 
 .text1 {
@@ -211,17 +210,6 @@ h1 {
     font-weight: bold;
 }
 
-.razdelitel {
-    height: 1px;
-    width: 765px;
-    background-color: #e4e4ec;
-    margin: 0 0 32px 120px;
-}
-
-.projects {
-    padding-left: 120px;
-}
-
 .p1 {
     font-size: 24px;
     line-height: 24px;
@@ -234,7 +222,6 @@ h1 {
 .homes {
     display: flex;
     column-gap: 28px;
-    margin-bottom: 50px;
 }
 
 
@@ -277,9 +264,64 @@ h1 {
 
 .info {
     background-color: #ededf5;
-    padding: 28px 120px;
-    display: flex;
+    padding: 28px 0;
+}
 
+.navigation {
+    min-width: 220px;
+}
+
+.navigation p {
+    padding: 11px 16px;
+    font-size: 16px;
+    line-height: 1.5em;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+    background-color: #1f1f56;
+}
+
+.navigation>ul>li>a,
+.sub-menu li>a {
+    padding: 11px 16px;
+}
+
+.sub-menu {
+    max-height: 0;
+    visibility: hidden;
+}   
+
+.navigation>ul>li:hover>.sub-menu {
+    max-height: 1000px;
+    visibility: visible;
+    transition: max-height .5s ease;
+}
+
+.navigation>ul>li:hover>a {
+    background-color: #fd8300;
+    color: #fff;
+}
+
+.navigation a {
+    display: block;
+    font-size: 14px;
+    line-height: 1.7em;
+    color: #25252c;
+    /* transition: all .5s ease; */
+}
+
+.navigation li {
+    background-color: #e4e4ec;
+    border-top: 1px solid #cecedd;
+}
+
+.sub-menu li>a {
+    padding-left: 30px;
+    color: #666;
+}
+
+.sub-menu li:hover {
+    background-color: #cecedd;
 }
 
 .a1 a,
@@ -288,7 +330,6 @@ h1 {
     line-height: 26px;
     color: #666;
     transition: all .4s ease;
-    text-decoration: none;
 }
 
 .a1 a:hover,
@@ -298,10 +339,9 @@ h1 {
 }
 
 .footer {
-    padding: 13px 120px;
+    padding: 13px 0;
     background-color: #dcdce6;
-    display: flex;
-    justify-content: center;
+    text-align: center;
 }
 
 .footer p {
