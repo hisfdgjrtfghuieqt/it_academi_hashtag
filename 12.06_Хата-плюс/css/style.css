@@ -219,11 +219,18 @@ h1 {
     margin-bottom: 25px;
 }
 
+.homes img {
+    transition: all .3s ease;
+}
+
+.homes img:hover {
+    transform: scale(1.2);
+}
+
 .homes {
     display: flex;
     column-gap: 28px;
 }
-
 
 .homes span {
     font-size: 13px;
@@ -260,6 +267,13 @@ h1 {
 .name2 a,
 .name3 a {
     color: #1f1f56;
+}
+
+.name1 a:hover,
+.name2 a:hover,
+.name3 a:hover,
+.link a:hover {
+    text-decoration: underline;
 }
 
 .info {
