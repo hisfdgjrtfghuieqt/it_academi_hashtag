@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    padding: 0;
 }
 
 .header {
@@ -17,6 +18,80 @@
     justify-content: space-between;
 }
 
+.right img {
+    padding-right: 8px;
+}
+
+.right {
+    column-gap: 14px;
+}
+
 .right p {
-    color: aliceblue;
+    font-size: 14px;
+    color: #f1f1f3;
+    font-weight: 400;
+    font-family: "Roboto";
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    padding: 20px 0;
+}
+
+.logo {
+    font-size: 30px;
+    color: #151517;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+}
+
+.navigation {
+    column-gap: 28px;
+    display: flex;
+    align-items: center;
+}
+
+.navigation a {
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #151517;
+    font-weight: 700;
+    font-family: "Roboto";
+}
+
+.adv {
+    background: url('../img/bg.png') no-repeat;
+    background-size: 100%;
+    height: 481px;
+    width: 100%;
+}
+
+.adv div {
+    max-width: 610px;
+    padding: 40px 0;
+}
+
+.t1 {
+    font-size: 50px;
+    letter-spacing: 2px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+    text-align: center;
+    white-space: nowrap;
+}
+
+.t2 {
+    width: 1170px;
+    height: 82px;
+    font-size: 18px;
+    line-height: 28px;
+    color: #fff;
+    font-weight: 300;
+    font-family: "Roboto";
+    text-align: center;
 }
