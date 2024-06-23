@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body {
+    margin: 0 auto;
+}
+
 .header {
     background-color: #151517;
     padding: 7px 0;
@@ -72,12 +76,13 @@
 }
 
 .adv div {
+    padding-top: 20px;
     max-width: 610px;
-    padding: 40px 0;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .t1 {
@@ -157,10 +162,9 @@
 }
 
 .quality {
-    border: 2px solid;
-    width: 270px;
-    height: 240px;
-    display: flex;
+    border: 2px solid #f5ed08;
+    padding: 26px 29px;
+    display: inline;
     justify-content: center;
 }
 
@@ -216,12 +220,14 @@
 }
 
 .test {
-    background: url('../img/test.png') no-repeat;
+    background: url('../img/black-bean-close-up-cooked-1640774.png') no-repeat;
+    background-color: #000;
     background-size: 100%;
-    height: 250px;
-    width: 100%;
+    padding: 57px 0;
     margin: 0 auto;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .t11 {
@@ -240,7 +246,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
 }
 
 .test button {
@@ -308,7 +313,12 @@
 }
 
 .img {
+    box-sizing: border-box;
+    width: auto;
+    max-width: 100%;
     white-space: nowrap;
+    display: flex;
+    column-gap: 0px;
 }
 
 .p5 {
@@ -396,4 +406,45 @@
     font-weight: 300;
     font-family: "Roboto";
     padding-top: 9px;
+}
+
+.dostavka {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 18px;
+}
+
+.time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+}
+
+.tsiny {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    background-color: #151517;
+    height: 316px;
+}
+
+.logo-wrapper {
+    font-size: 30px;
+    color: #fff;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+    padding-top: 50px;
+}
+
+.nhjsdfdfsg {
+    font-size: 13px;
+    line-height: 24px;
+    color: #878787;
+    font-weight: 300;
+    font-family: "Roboto";
 }
