@@ -62,20 +62,22 @@ body {
     text-transform: uppercase;
     color: #151517;
     font-weight: 700;
+    text-decoration: none;
+}
+
+.adv button {
+    border: none;
 }
 
 .adv {
-    background: url('../img/bg.png') no-repeat;
-    background-size: 100%;
-    height: 381px;
+    background: url('../img/bg.png') no-repeat center/cover;
     width: 100%;
     margin: 0 auto;
-    padding: 15px 0 108px 0;
-    box-sizing: border-box;
+    padding-top: 101px;
+    padding-bottom: 108px;
 }
 
 .adv div {
-    padding-top: 20px;
     max-width: 610px;
     margin: 0 auto;
     display: flex;
@@ -214,9 +216,7 @@ body {
 }
 
 .test {
-    background: url('../img/black-bean-close-up-cooked-1640774.png') no-repeat;
-    background-color: #000;
-    background-size: 100%;
+    background: #000 url('../img/Rectangle11.png') no-repeat center/cover;
     padding: 57px 0;
     margin: 0 auto;
     display: flex;
@@ -303,18 +303,21 @@ body {
     width: 384px;
 }
 
-.img img {
-    width: 385px;
-}
-
 .img {
-    box-sizing: border-box;
-    width: auto;
-    max-width: 100%;
-    white-space: nowrap;
+    width: 100%;
     display: flex;
     column-gap: 0px;
-    overflow-x: hidden;
+}
+
+.img p {
+    max-width: 20vw;
+    max-height: 20vw;
+}
+
+.img p>img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
 }
 
 .p5 {
@@ -347,6 +350,7 @@ body {
     height: 134px;
     background-color: #fff;
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 
@@ -478,7 +482,7 @@ body {
     color: #f5ed08;
 }
 
-.contacts a {
+.navigation a {
     text-decoration: none;
 }
 
@@ -535,4 +539,27 @@ body {
     font-family: "Roboto Slab";
     padding-bottom: 20px;
     padding-top: 40px;
+}
+
+.navigation a {
+    position: relative;
+}
+
+.navigation a::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    width: 0%;
+    height: 2px;
+    background-color: #f5ed08;
+    transition: all .5s ease;
+}
+
+.navigation a::before {
+    bottom: 0; 
+}
+
+.navigation p:hover > a::before {
+    width: 100%;    
 }
