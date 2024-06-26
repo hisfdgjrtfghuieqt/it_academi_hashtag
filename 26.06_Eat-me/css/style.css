@@ -5,6 +5,7 @@
 
 body {
     margin: 0 auto;
+    font-family: "Roboto";
 }
 
 .header {
@@ -34,7 +35,6 @@ body {
     font-size: 14px;
     color: #f1f1f3;
     font-weight: 400;
-    font-family: "Roboto";
     display: flex;
     align-items: center;
 }
@@ -62,7 +62,6 @@ body {
     text-transform: uppercase;
     color: #151517;
     font-weight: 700;
-    font-family: "Roboto";
 }
 
 .adv {
@@ -106,7 +105,6 @@ body {
     line-height: 28px;
     color: #fff;
     font-weight: 300;
-    font-family: "Roboto";
     text-align: center;
     margin-bottom: 46px;
 }
@@ -121,7 +119,6 @@ body {
     text-transform: uppercase;
     color: #151517;
     font-weight: 700;
-    font-family: "Roboto";
     text-align: center;
 }
 
@@ -149,7 +146,6 @@ body {
     line-height: 21px;
     color: #878787;
     font-weight: 400;
-    font-family: "Roboto";
     text-align: center;
 }
 
@@ -185,7 +181,6 @@ body {
     line-height: 21px;
     color: #878787;
     font-weight: 400;
-    font-family: "Roboto";
     text-align: center;
 }
 
@@ -215,7 +210,6 @@ body {
     line-height: 24px;
     color: #878787;
     font-weight: 300;
-    font-family: "Roboto";
     text-align: center;
 }
 
@@ -237,7 +231,6 @@ body {
     line-height: 24px;
     color: #ffffff;
     font-weight: 300;
-    font-family: "Roboto";
     text-align: center;
 }
 
@@ -258,7 +251,6 @@ body {
     text-transform: uppercase;
     color: #151517;
     font-weight: 700;
-    font-family: "Roboto";
     text-align: center;
 }
 
@@ -294,7 +286,6 @@ body {
     text-decoration: none;
     color: #151517;
     font-weight: 700;
-    font-family: "Roboto";
     text-align: center;
     margin-bottom: 36px;
 }
@@ -312,6 +303,10 @@ body {
     width: 384px;
 }
 
+.img img {
+    width: 385px;
+}
+
 .img {
     box-sizing: border-box;
     width: auto;
@@ -319,6 +314,7 @@ body {
     white-space: nowrap;
     display: flex;
     column-gap: 0px;
+    overflow-x: hidden;
 }
 
 .p5 {
@@ -361,7 +357,6 @@ body {
     line-height: 24px;
     color: #878787;
     font-weight: 300;
-    font-family: "Roboto";
     text-align: center;
 }
 
@@ -404,7 +399,6 @@ body {
     line-height: 24px;
     color: #878787;
     font-weight: 300;
-    font-family: "Roboto";
     padding-top: 9px;
 }
 
@@ -431,6 +425,7 @@ body {
 .footer {
     background-color: #151517;
     height: 316px;
+    padding-top: 50px;
 }
 
 .logo-wrapper {
@@ -438,13 +433,106 @@ body {
     color: #fff;
     font-weight: 700;
     font-family: "Roboto Slab";
-    padding-top: 50px;
 }
 
 .nhjsdfdfsg {
+    padding-top: 20px;
     font-size: 13px;
     line-height: 24px;
     color: #878787;
     font-weight: 300;
-    font-family: "Roboto";
+}
+
+.menu li {
+    padding-bottom: 12px;
+}
+
+.menu ul {
+    list-style-type: none;
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 400;
+    transition: all .4s ease;
+}
+
+.i1 {
+    width: 12px;
+    height: 17px;
+}
+
+.i2 {
+    width: 13px;
+    height: 14px;
+}
+
+.i3 {
+    width: 17px;
+    height: 12px;
+}
+
+.menu a:hover {
+    color: #f5ed08;
+}
+
+.contacts a {
+    text-decoration: none;
+}
+
+.contacts a:hover {
+    text-decoration: underline;
+}
+
+.contacts ul>li {
+    display: flex;
+    column-gap: 18px;
+    padding-bottom: 12px;
+}
+
+.contacts a {
+    font-size: 14px;
+    color: #f1f1f3;
+    font-weight: 400;
+}
+
+.news input {
+    display: block;
+    box-sizing: border-box;
+    color: #fff;
+    opacity: 0.200;
+    width: 270px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: #151517;
+    border: 1px solid #ffffff;
+    padding-left: 17px;
+}
+
+.text {
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #f1f1f3;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+    padding-bottom: 32px;
+}
+
+.imgfooter {
+    display: flex;
+    column-gap: 7px;
+}
+
+.text-footer {
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #f1f1f3;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+    padding-bottom: 20px;
+    padding-top: 40px;
 }
