@@ -14,13 +14,15 @@
 <body>
     <div class="header">
         <div class="wrapper flex-between">
-            <ul class="flex-between nav">
-                <li><a href="#">Головна</a></li>
-                <li><a href="#">Про компанію</a></li>
-                <li><a href="#">Наші будівлі</a></li>
-                <li><a href="#">Акції</a></li>
-                <li><a href="#">Контакти</a></li>
-            </ul>
+            <nav>
+                <ul class="flex-between nav">
+                    <li><a href="#">Головна</a></li>
+                    <li><a href="#">Про компанію</a></li>
+                    <li><a href="#">Наші будівлі</a></li>
+                    <li><a href="#">Акції</a></li>
+                    <li><a href="#">Контакти</a></li>
+                </ul>
+            </nav>
             <ul class="flex-between nav">
                 <li>
                     <a href="#">
@@ -67,7 +69,7 @@
             </ul>
         </div>
     </div>
-    <div class="contacts flex-between wrapper">
+    <section class="contacts flex-between wrapper">
         <div><a href="#"><img src="img/logo.png" alt=""></a></div>
         <div class="phone">
             <p class="logo"><img src="img/phone.png" alt=""><a href="tel:+380971002525">+38(097) 100-25-25</a>
@@ -76,12 +78,11 @@
         </div>
         <span class="palka"></span>
         <div class="hataplus">
-            <p class="mail"><img src="img/mail.png" alt=""><a
-                    href="mailto:hataplus@hata.com.ua">hataplus@hata.com.ua</a></p>
+            <p class="mail"><img src="img/mail.png" alt=""><a href="mailto:hataplus@hata.com.ua">hataplus@hata.com.ua</a></p>
             <p class="skype"><img src="img/skype.png" alt=""><a href="#">hataplus</a></p>
         </div>
         <button>Замовити дзвінок</button>
-    </div>
+    </section>
     <div class="adv">
         <div>
             <p class="t1"> Пропозиція місяця</p>
@@ -91,7 +92,7 @@
     </div>
     <main class="wrapper flex-between main">
         <div class="main-block">
-            <div class="main-text">
+            <article class="main-text">
                 <h1>Компанія “Хата Плюс”</h1>
                 <p class="text1">Напевно кожен з нас не раз думав про те, щоб купити будинок котедж і насолоджуватися
                     життям в гармонії з природою. Дійсно, для багатьох жителів мегаполісу заміська нерухомість під
@@ -102,35 +103,41 @@
                     земельна ділянка, на якому можна не тільки посадити сад, але облаштувати зону відпочинку, спорудити
                     сауну, поставити альтанку і барбекю.</p>
                 <p class="link"><a href="#">Детальніше про нас</a></p>
-            </div>
-            <div class="projects">
+            </article>
+            <section class="projects">
                 <p class="p1">Популярні проекти</p>
-                <div class="homes">
-                    <div class="home1">
-                        <a href="#"><img src="img/img2.png" alt=""></a>
-                        <p class="name1"><a href="#">EDMONTON (338 м2)</a></p>
-                        <p><span>Загальна площа будови: 312 м2</span></p>
-                        <p><span>Кількість спалень: 4</span></p>
-                        <p><span>Гараж: 2 авто</span></p>
-                    </div>
-                    <div class="home2">
-                        <a href="#"><img src="img/img3.png" alt=""></a>
-                        <p class="name2"><a href="#">MONTREAL (332 м2)</a></p>
-                        <p><span>Загальна площа будови: 290 м2</span></p>
-                        <p><span>Кількість спалень: 3</span></p>
-                        <p><span>Гараж: 2 авто</span></p>
-                    </div>
-                    <div class="home3">
-                        <a href="#"><img src="img/img4.png" alt=""></a>
-                        <p class="name3"><a href="#">CALGARY (294 м2)</a></p>
-                        <p><span>Загальна площа будови: 272 м2</span></p>
-                        <p><span>Кількість спалень: 3</span></p>
-                        <p><span>Гараж: 2 авто</span></p>
-                    </div>
+                <section class="homes">
+                    <figure class="home1">
+                        <figcaption>
+                            <a href="#"><img src="img/img2.png" alt=""></a>
+                            <p class="name1"><a href="#">EDMONTON (338 м2)</a></p>
+                            <p><span>Загальна площа будови: 312 м2</span></p>
+                            <p><span>Кількість спалень: 4</span></p>
+                            <p><span>Гараж: 2 авто</span></p>
+                        </figcaption>
+                    </figure>
+                    <figure class="home2">
+                        <figcaption>
+                            <a href="#"><img src="img/img3.png" alt=""></a>
+                            <p class="name2"><a href="#">MONTREAL (332 м2)</a></p>
+                            <p><span>Загальна площа будови: 290 м2</span></p>
+                            <p><span>Кількість спалень: 3</span></p>
+                            <p><span>Гараж: 2 авто</span></p>
+                        </figcaption>
+                    </figure>
+                    <figure class="home3">
+                        <figcaption>
+                            <a href="#"><img src="img/img4.png" alt=""></a>
+                            <p class="name3"><a href="#">CALGARY (294 м2)</a></p>
+                            <p><span>Загальна площа будови: 272 м2</span></p>
+                            <p><span>Кількість спалень: 3</span></p>
+                            <p><span>Гараж: 2 авто</span></p>
+                        </figcaption>
+                    </figure>
                 </div>
             </div>
         </div>
-        <div class="navigation">
+        <nav class="navigation">
             <p>Категорії проектів</p>
             <ul>
                 <li>
@@ -182,21 +189,23 @@
                     </ul>
                 </li>
             </ul>
-        </div>
+        </nav>
     </main>
     <div class="info">
         <div class="wrapper flex-between">
-            <ul class="a1">
-                <li><a href="#">Будинки</a></li>
-                <li><a href="#">Інфраструктура</a></li>
-                <li><a href="#">Сервіс</a></li>
-                <li><a href="#">Новини</a></li>
-            </ul>
-            <ul class="a2">
-                <li><a href="#">Про компанію</a></li>
-                <li><a href="#">Страхування</a></li>
-                <li><a href="#">Контакти</a></li>
-            </ul>
+            <nav class="flex-between footer-wrapper">
+                <ul class="a1">
+                    <li><a href="#">Будинки</a></li>
+                    <li><a href="#">Інфраструктура</a></li>
+                    <li><a href="#">Сервіс</a></li>
+                    <li><a href="#">Новини</a></li>
+                </ul>
+                <ul class="a2">
+                    <li><a href="#">Про компанію</a></li>
+                    <li><a href="#">Страхування</a></li>
+                    <li><a href="#">Контакти</a></li>
+                </ul>
+            </nav>
             <div class="phone">
                 <p class="logo"><img src="img/phone.png" alt=""><a href="tel:+380971002525">+38(097) 100-25-25</a>
                 </p>
@@ -209,9 +218,8 @@
             </div>
         </div>
     </div>
-    <div class="footer">
+    <footer class="footer">
         <p>&copy; Будівельна компанія “Хата Плюс” 2024.</p>
-    </div>
+    </footer>
 </body>
-
 </html>

@@ -224,7 +224,7 @@ h1 {
 }
 
 .homes img:hover {
-    transform: scale(1.2);
+    transform: scale(1.05);
 }
 
 .homes {
@@ -362,6 +362,11 @@ h1 {
     font-size: 13px;
     line-height: 18px;
     color: #9999a6;
+}
+
+.footer-wrapper {
+    display: flex;
+    column-gap: 100px;
 }
 
 .phone-text-1 {
